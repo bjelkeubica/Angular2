@@ -1,0 +1,16 @@
+C:\Projekat\Angular2\Angular2\bin\Angular2.dll.config
+C:\Projekat\Angular2\Angular2\bin\Angular2.dll
+C:\Projekat\Angular2\Angular2\bin\Angular2.pdb
+C:\Projekat\Angular2\Angular2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projekat\Angular2\Angular2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projekat\Angular2\Angular2\obj\Debug\Angular2.csproj.CoreCompileInputs.cache
+C:\Projekat\Angular2\Angular2\obj\Debug\Angular2.dll
+C:\Projekat\Angular2\Angular2\obj\Debug\Angular2.pdb
+C:\Projekat\Angular2Demo\Angular2\bin\Angular2.dll.config
+C:\Projekat\Angular2Demo\Angular2\bin\Angular2.dll
+C:\Projekat\Angular2Demo\Angular2\bin\Angular2.pdb
+C:\Projekat\Angular2Demo\Angular2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projekat\Angular2Demo\Angular2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projekat\Angular2Demo\Angular2\obj\Debug\Angular2.csproj.CoreCompileInputs.cache
+C:\Projekat\Angular2Demo\Angular2\obj\Debug\Angular2.dll
+C:\Projekat\Angular2Demo\Angular2\obj\Debug\Angular2.pdb
