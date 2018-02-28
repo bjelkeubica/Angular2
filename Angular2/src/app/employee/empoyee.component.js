@@ -7,17 +7,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
-        this.name = 'Angular 2!';
+var EmployeeComponent = /** @class */ (function () {
+    function EmployeeComponent() {
+        this.firstName = 'Tom';
+        this.lastName = 'Hopkins';
+        this.gender = 'Male';
+        this.age = 20;
+        this.showDetails = false;
     }
-    AppComponent = __decorate([
+    EmployeeComponent.prototype.toggleDetails = function () {
+        this.showDetails = !this.showDetails;
+    };
+    EmployeeComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n            <my-employee></my-employee>\n            "
+            selector: 'my-employee',
+            templateUrl: 'app/employee/employee.component.html',
+            styleUrls: ['app/employee/employee.component.css']
         })
-    ], AppComponent);
-    return AppComponent;
+    ], EmployeeComponent);
+    return EmployeeComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.EmployeeComponent = EmployeeComponent;
+//# sourceMappingURL=empoyee.component.js.map
