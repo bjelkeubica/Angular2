@@ -2,9 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'my-app',
-    template: `
-            <my-employee></my-employee>
-            `
+    template: ` 
+                <h3>{{numberOfEmployees}}{{10+20+30}}</h3>
+                <h3>{{bestEmployeeDetails}}</h3>
+                <my-employee></my-employee>
+              `
 })
 
-export class AppComponent  { name = 'Angular 2!'; }
+export class AppComponent  {
+    numberOfEmployees = 'Number of employees: ';
+    bestEmployeeDetails = 'Best employee details'
+}

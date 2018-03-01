@@ -9,12 +9,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.name = 'Angular 2!';
+        this.numberOfEmployees = 'Number of employees: ';
+        this.bestEmployeeDetails = 'Best employee details';
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n            <my-employee></my-employee>\n            "
+            template: " \n                <h1>{{numberOfEmployees}}{{10+20+30}}</h1>\n                <h1>{{bestEmployeeDetails}}</h1>\n                <my-employee></my-employee>\n              "
         })
     ], AppComponent);
     return AppComponent;
