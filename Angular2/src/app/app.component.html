@@ -1,12 +1,15 @@
-﻿<!--PropertyBinding-->
-<img class="logo" [src]='imagePath' />
+﻿<div class='main'>
+    <!--PropertyBinding-->
+    <img class="logo" [src]='imagePath' />
 
-<!--Interpolation-->
-<h3>{{numberOfEmployees}}{{10+20+30}}</h3>
-<h3>{{bestEmployeeDetails}}</h3>
+    <!--Interpolation-->
+    <h3>{{numberOfEmployees}}{{10+20+30}}</h3>
+    <h3>{{bestEmployeeDetails}}</h3>
 
-<my-employee></my-employee>
+    <my-employee></my-employee>
 
-<!--Inverpolation vs PropertyBinding with malicious html-->
-<div>{{badHtml}}</div>
-<div [innerHtml]='badHtml'></div>
+    <!--Inverpolation vs PropertyBinding with malicious html-->
+    <div>{{badHtml}}</div>
+    <div [innerHtml]='badHtml'></div>
+</div>
+

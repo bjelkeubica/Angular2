@@ -1,4 +1,9 @@
-﻿<table class="employee-table">
+﻿<div>
+    Name: <input [value]='firstName' (input)='firstName=$event.target.value'/>
+    <br /><br />
+</div>
+
+<table class="employee-table">
     <tr>
         <td class="allCells leftCells">First name</td>
         <td class="allCells rightCells">{{firstName}}</td>
