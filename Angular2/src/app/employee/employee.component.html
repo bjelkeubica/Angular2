@@ -1,8 +1,12 @@
 ﻿<div>
+    <!--Property binding + event binding = two way data binding
     Name: <input [value]='firstName' (input)='firstName=$event.target.value'/>
-    <br /><br />
-</div>
+    <br /><br />-->
 
+    <!--ngModel = two way data binding-->
+    Name: <input [(ngModel)]='firstName' />
+</div>
+<br />
 <table class="employee-table">
     <tr>
         <td class="allCells leftCells">First name</td>
