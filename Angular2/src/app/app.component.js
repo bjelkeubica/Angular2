@@ -12,6 +12,7 @@ var AppComponent = /** @class */ (function () {
         this.numberOfEmployees = 'Number of employees: ';
         this.bestEmployeeDetails = 'Best employee details';
         this.imagePath = './app/images/angular_logo.png';
+        this.badHtml = 'Hello <script>alert("Hacked");</script> World';
     }
     AppComponent = __decorate([
         core_1.Component({

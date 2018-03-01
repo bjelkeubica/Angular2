@@ -6,3 +6,7 @@
 <h3>{{bestEmployeeDetails}}</h3>
 
 <my-employee></my-employee>
+
+<!--Inverpolation vs PropertyBinding with malicious html-->
+<div>{{badHtml}}</div>
+<div [innerHtml]='badHtml'></div>

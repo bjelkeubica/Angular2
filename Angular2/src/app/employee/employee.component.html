@@ -1,19 +1,19 @@
-﻿<table>
+﻿<table class="employee-table">
     <tr>
-        <td>First name</td>
-        <td>{{firstName}}</td>
+        <td class="allCells leftCells">First name</td>
+        <td class="allCells rightCells">{{firstName}}</td>
     </tr>
     <tr>
-        <td>Last name</td>
-        <td>{{lastName}}</td>
+        <td class="allCells leftCells">Last name</td>
+        <td class="allCells rightCells">{{lastName}}</td>
     </tr>
     <tr *ngIf='showDetails'>
-        <td>Gender</td>
-        <td>{{gender}}</td>
+        <td class="allCells leftCells">Gender</td>
+        <td class="allCells rightCells">{{gender}}</td>
     </tr>
     <tr *ngIf='showDetails'>
-        <td>Age</td>
-        <td>{{age}}</td>
+        <td class="allCells leftCells">Age</td>
+        <td class="allCells rightCells">{{age}}</td>
     </tr>
 </table>
 <br />
