@@ -11,11 +11,12 @@ var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.numberOfEmployees = 'Number of employees: ';
         this.bestEmployeeDetails = 'Best employee details';
+        this.imagePath = './app/images/angular_logo.png';
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: " \n                <h1>{{numberOfEmployees}}{{10+20+30}}</h1>\n                <h1>{{bestEmployeeDetails}}</h1>\n                <my-employee></my-employee>\n              "
+            templateUrl: './app.component.html',
         })
     ], AppComponent);
     return AppComponent;

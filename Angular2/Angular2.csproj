@@ -71,8 +71,10 @@
     <Content Include="bs-config.json" />
     <Content Include="package.json" />
     <None Include="packages.config" />
+    <Content Include="src\app\app.component.html" />
     <Content Include="src\app\employee\employee.component.css" />
     <Content Include="src\app\employee\employee.component.html" />
+    <Content Include="src\app\images\angular_logo.png" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
     <None Include="Web.Debug.config">
