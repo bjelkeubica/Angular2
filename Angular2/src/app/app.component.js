@@ -13,11 +13,15 @@ var AppComponent = /** @class */ (function () {
         this.bestEmployeeDetails = 'Best employee details';
         this.imagePath = './app/images/angular_logo.png';
         this.badHtml = 'Hello <script>alert("Hacked");</script> World';
+        //This is for lifecycle hook
+        this.userText = 'Angular';
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            templateUrl: './app.component.html',
+            //templateUrl: './app.component.html',
+            //This is for lifecycle hook
+            template: "Your Text: <input type='text' [(ngModel)]='userText'/>\n                <br/><br/>\n                <simple [simpleInput]='userText'></simple>\n              ",
             styleUrls: ['app/app.component.css'],
         })
     ], AppComponent);
