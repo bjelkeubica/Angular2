@@ -1,4 +1,5 @@
-﻿import { Component } from '@angular/core'
+﻿import { Component, OnInit } from '@angular/core'
+import { IEmployee } from './employee'
 
 @Component({
     selector: 'list-employee',
@@ -7,7 +8,9 @@
 })
 
 export class EmployeeListComponent {
-    employees: any[];
+    //In the beginning, employees list should be type any[], after implementing interface, should be IEmployee[]
+    //employees: any[];
+    employees: IEmployee[];
 
     constructor() {
         this.employees = [
