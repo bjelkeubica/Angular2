@@ -75,7 +75,6 @@
     <Content Include="src\app\app.component.html" />
     <Content Include="src\app\employee\employee.component.css" />
     <Content Include="src\app\employee\employee.component.html" />
-    <Content Include="src\app\employee\employeeList.component.css" />
     <Content Include="src\app\employee\employeeList.component.html" />
     <Content Include="src\app\images\angular_logo.png" />
     <Content Include="src\tsconfig.json" />

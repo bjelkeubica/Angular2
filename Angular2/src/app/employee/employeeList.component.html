@@ -10,11 +10,14 @@
     </thead>
     <tbody>
         <tr *ngFor="let employee of employees">
-            <td class="allCells">{{employee.code}}</td>
-            <td class="allCells">{{employee.name}}</td>
-            <td class="allCells">{{employee.gender}}</td>
-            <td class="allCells">{{employee.annualSalary}}</td>
-            <td class="allCells">{{employee.dateOfBirth}}</td>
+            <td class="allCells dataCells">{{employee.code}}</td>
+            <td class="allCells dataCells">{{employee.name}}</td>
+            <td class="allCells dataCells">{{employee.gender}}</td>
+            <td class="allCells dataCells">{{employee.annualSalary}}</td>
+            <td class="allCells dataCells">{{employee.dateOfBirth}}</td>
+        </tr>
+        <tr *ngIf="!employees || employees.length==0">
+            <td colspan="5" class="allCells">No employees to display</td>
         </tr>
     </tbody>
 </table>
