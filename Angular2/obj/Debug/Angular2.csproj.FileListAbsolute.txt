@@ -14,3 +14,4 @@ C:\Projekat\Angular2Demo\Angular2\bin\Microsoft.CodeDom.Providers.DotNetCompiler
 C:\Projekat\Angular2Demo\Angular2\obj\Debug\Angular2.csproj.CoreCompileInputs.cache
 C:\Projekat\Angular2Demo\Angular2\obj\Debug\Angular2.dll
 C:\Projekat\Angular2Demo\Angular2\obj\Debug\Angular2.pdb
+C:\Projekat\Angular2Demo\Angular2\obj\Debug\Angular2.csprojResolveAssemblyReference.cache
